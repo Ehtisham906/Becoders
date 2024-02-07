@@ -42,7 +42,7 @@ function App() {
           <Route excat path='/services' element={<Services mode={mode} />} />
           <Route excat path='/blogs' element={<Blogs mode={mode} />} />
           <Route excat path='/contact' element={<Contact mode={mode} />} />
-          <Route excat path='/register' element={<RegisterNow />} />
+          <Route excat path='/register' element={<RegisterNow mode={mode} />} />
 
 
 

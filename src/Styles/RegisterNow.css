@@ -14,9 +14,58 @@
 }
 
 .registernowtopHeading p {
-    color: #111; 
+    color: #111;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.formOuter {
+    justify-content: space-around;
+}
+
+.formdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.formdiv .elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.formdiv .elementsCourse {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.coursediv {
+    display: flex;
+    gap: 10px;
+
+}
+
+.regestrationBtn {
+    align-self: center;
+    border-radius: 5px;
+    background: #F86400;
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.formImage {
+    background-image: url(../images/registerNow/rn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+.topDiv{
+    padding: 20px;
 }
