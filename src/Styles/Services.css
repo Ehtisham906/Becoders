@@ -1,0 +1,16 @@
+#more {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: 23s;
+}
+#moreAppDev{
+    display: none;
+
+}
+#moreGraphicDesign{
+    display: none;
+}
+#moreUIUXDesign{
+    display: none;
+}

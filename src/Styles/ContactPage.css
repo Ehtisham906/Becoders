@@ -1,0 +1,36 @@
+.TopHeading{
+
+    display: flex;
+    justify-content: center;
+    color: #F86400;
+}
+.map-container{
+    height: 602px;
+}
+
+.map-container .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.map-container .row .googleMap{
+    height:414px;
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #154a72;
+}
+.formDetails{
+    display: flex;
+    flex-direction: column;
+}
+.formHeading{
+    align-self: center;
+}
+
+.emailType{
+    border: none;
+    border-bottom:2px grey solid ;
+}

@@ -1,0 +1,140 @@
+.topHeading {
+  color: #154a72;
+}
+
+.topHeading .weDo {
+  color: #ea4335;
+}
+
+.weblanding {
+  color: red;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.webdevouterdiv {
+  height: fit-content;
+}
+
+.weblanding h4 {
+  color: #F86400;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.weblanding p {
+  color: #111;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.webDevImg {
+  background-position-x: center;
+  height: 400px;
+  background-image: url("../images/webdev.png");
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+
+.appdevouter h4 {
+  color: #F86400;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.appdevouter .appDevImg {
+
+  height: 400px;
+  background-position-x: center;
+  background-image: url("../images/appdev.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.appdevouter p {
+  color: #111;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.applanding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphicOuter {
+  height: auto;
+}
+
+.graphiclanding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphicImg {
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/graphicdesign.png);
+  background-position-x: center;
+}
+
+.graphiclanding h4 {
+  color: #F86400;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.graphiclanding p {
+
+  font-size: 14px;
+}
+
+.uiuxOuter{
+  height: fit-content;
+}
+
+.uiuxImg{
+  height: 400px;
+  background-image: url(../images/uiuxdesign.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.uiuxlanding{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.uiuxlanding h4{
+  color: #F86400;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.uiuxlanding p{
+  font-size: 14px;
+}

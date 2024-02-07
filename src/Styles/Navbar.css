@@ -1,0 +1,125 @@
+/* Navbar Styling */
+
+/* Hovering on li items */
+
+.liItem {
+  position: relative;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+}
+.liItem:after {
+  content: "";
+  position: absolute;
+  background-color: #f86400;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.liItem:hover:after {
+  width: 100%;
+}
+#registerBtn {
+  color: #ffff;
+  background-color: #f86400 ;
+}
+#registerBtn:hover {
+  background-color: #154a72;
+  color: #ffff;
+}
+#darkModeBtn {
+  font-size: 18px;
+  height: auto;
+  width: auto;
+  background-color: black;
+  color: white;
+}
+.dropdown {
+  text-decoration: none;
+}
+.darkModeText {
+  font-size: 18px;
+}
+.body {
+  margin: 0;
+  display: flex;
+
+  align-items: center;
+}
+.darkModeLabel {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 1px 1px 3px -0.12px rgba(0, 0, 0, 0.4),
+    inset 1px 1px 3px -0.12px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.darkModeLabel:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  background: linear-gradient(180deg, #ffcc89, #f86400);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.darkModeInput {
+  width: 0px;
+  height: 0px;
+  visibility: hidden;
+}
+.darkModeInput:checked + .darkModeLabel {
+  background-color: #242424;
+}
+.darkModeInput:checked + .darkModeLabel:after {
+  left: 45px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+.darkModeLabel:active::after {
+  width: 30%;
+}
+.darkModeLabel svg {
+  position: absolute;
+  width: 20px;
+  top: 1px;
+  z-index: 100;
+}
+.darkModeLabel svg.sun {
+  top: 4px;
+  fill: #f86400;
+  left: 28px;
+
+  transition: 0.3s;
+  visibility: visible;
+}
+.darkModeLabel svg.moon {
+  left: 25px;
+  top: 0px;
+  fill: none;
+  transition: 0.3s;
+  visibility: hidden;
+}
+.darkModeInput:checked + .darkModeLabel svg.sun {
+  visibility: hidden;
+  left: 0px;
+
+  fill: none;
+}
+.darkModeInput:checked + .darkModeLabel svg.moon {
+  visibility: visible;
+  fill: #f86400;
+  position: relative;
+  left: 3px;
+  top: 1px;
+  color: #000000;
+}
